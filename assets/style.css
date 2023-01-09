@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    color: black;
+    margin-top: 100px;
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+}
+
+form input{
+    width: 250px;
+}
+form button{
+    width: 50px;
+}
+
+li{
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    display: flex;
+    position: relative;
+    margin: 5px 0;
+    transition: 0.5s linear;
+    border: 1px solid black;
+}
+
+li button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+}
