@@ -11,11 +11,11 @@
 <body>
     <header>
         <nav class="navbar">
-          <h2 class="tag">Awesome Books</h2>
+         <h2 class="tag">Awesome Books</h2>
           <ul class="top-menu">
-            <li class="nav-links listNav">List</li>
-            <li class="addNav">Add new</li>
-            <li class="contactNav">Contact</li>
+            <a href="#container"><li class="nav-links listNav">List</li></a> 
+           <a href="#add"><li class="addNav">Add new</li></a> 
+          <a href="#contact-info"> <li class="contactNav">Contact</li></a> 
           </ul>
         </nav>
         <div class="date"></div>
@@ -26,18 +26,18 @@
         <ul id="book-list" class="books"></ul>
     </div>
 
-    <form action="">
+    <form action="" id="add" >
         <h1>Add a New Book</h1>
         <input type="text" id="text" placeholder="Title">
         <input type="text" id="txt" placeholder="Author">
         <button type="submit" class="btn-list btn btn-outline-primary">Add</button>
     </form>
 
-    <section class="for-contact">
-        <h1>Contact information</h1>
-        <p>
-          Do you have any Questions or you just want to say "Hello" You can
-          reach out to us!
+    <section class="for-contact" id="contact-info">
+        <h2>Contact information</h2>
+        <p class="contact-infor">
+          Do you have any Questions or you just want to say "Hello"
+          <br> You can reach out to us!
         </p>
         <ul>
           <li>Our email address is: carensiya5@gmail.com</li>
