@@ -10,7 +10,7 @@ const books = document.querySelector('.books');
 let i = 0;
 
 myButton.addEventListener('click', (e) => {
-  if (inputTitle.value && inputAuthor.value != '') {
+  if (inputTitle.value && inputAuthor.value !== '') {
     e.preventDefault();
     const bookData = {
       title: inputTitle.value,
@@ -29,7 +29,6 @@ myButton.addEventListener('click', (e) => {
     document.querySelector(`#btn${i}`)
       .addEventListener('click', function () {
         const remove1 = this.parentNode;
-        console.log(remove1);
         list.removeChild(remove1);
         book.splice(i, 1);
         localStorage.setItem('books-list', JSON.stringify(book));
