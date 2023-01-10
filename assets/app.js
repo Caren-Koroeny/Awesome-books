@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const book = [];
 
 const inputTitle = document.querySelector("#text");
@@ -21,8 +23,7 @@ myButton.addEventListener("click", (e)=>{
             <li id="bok">${item.title} by ${item.author}  <button type="button" class="btn btn-outline-primary" id="btn${i}">Remove</button></li> 
             `
         ))
-        inputTitle.value = '';
-        inputAuthor.value = '';   
+        document.querySelector('form').reset()  
         
         document.querySelector("#btn" + i)
         .addEventListener("click",function(){
