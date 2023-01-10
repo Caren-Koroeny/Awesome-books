@@ -31,9 +31,9 @@ myButton.addEventListener('click', (e) => {
         const remove1 = this.parentNode;
         list.removeChild(remove1);
         book.splice(i, 1);
-        localStorage.setItem('books-list', JSON.stringify(book));
+        localStorage.setItMem('books-list', JSON.stringify(book));
       });
 
-    i++;
+    i += 1;
   }
 });
