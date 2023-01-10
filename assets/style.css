@@ -11,16 +11,14 @@ h1 {
 }
 
 form {
-  margin-top: 50px;
+  margin-top: 15%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   background: #fff;
+  align-content: center;
 }
 
-form input {
-  width: 250px;
-}
 
 li {
   width: 100%;
@@ -49,4 +47,91 @@ li button {
 
 form button {
   width: 50px;
+}
+.top-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.top-menu li {
+  padding: 0.5rem;
+}
+
+main > section {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.date {
+  text-align: right;
+  padding: 0 1rem;
+}
+
+.table {
+  border: 3px solid;
+}
+
+button {
+  box-shadow: 3px 4px #888;
+  width: 10vw;
+  min-width: 63px;
+}
+
+.Button {
+  margin-left: auto;
+}
+
+
+
+form input {
+ align-content: center;
+}
+
+.for-add {
+  width: 50vw;
+  min-width: 200px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.for-contact {
+  width: 80vw;
+  margin-top: 20%;
+  max-width: 570px;
+}
+
+.for-contact ul {
+  width: 70%;
+  margin: auto;
+  text-align: start;
+}
+
+.listNav,
+.addNav,
+.contactNav {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer p {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+}
+
+.nav-links {
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(0, 102, 255);
+}
+.navbar{
+  align-items: center;
+  height: 70px;
+  margin-top: 20px;
 }
