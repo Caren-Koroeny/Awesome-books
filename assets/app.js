@@ -18,7 +18,7 @@ myButton.addEventListener("click", (e)=>{
         list.innerHTML = ''
         book.map((item) => (
             list.innerHTML += `
-            <li id="bok">${item.title} by ${item.author}  <button type="button" class="btn" id="btn${i}">Remove</button></li> 
+            <li id="bok">${item.title} by ${item.author}  <button type="button" class="btn btn-outline-primary" id="btn${i}">Remove</button></li> 
             `
         ))
         inputTitle.value = '';
