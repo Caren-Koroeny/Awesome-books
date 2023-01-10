@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-const book = [];
+const book = JSON.parse(localStorage.getItem('books-list'))  || [];
 
 const inputTitle = document.querySelector("#text");
 const inputAuthor = document.querySelector("#txt");
@@ -17,6 +17,7 @@ myButton.addEventListener("click", (e)=>{
             author: inputAuthor.value
         }
         book.push(bookData)
+        localStorage.setItem('books-list', JSON.stringify(book));
         list.innerHTML = ''
         book.map((item) => (
             list.innerHTML += `
@@ -30,6 +31,8 @@ myButton.addEventListener("click", (e)=>{
             const remove1 = this.parentNode;
             console.log(remove1);
             list.removeChild(remove1);
+            book.splice(i, 1);
+            localStorage.setItem('books-list', JSON.stringify(book));
         })
 
         i++;
