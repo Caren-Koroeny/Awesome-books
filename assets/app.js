@@ -7,14 +7,14 @@ const inputAuthor = document.querySelector("#txt");
 const myButton = document.querySelector(".btn-list");
 const list = document.getElementById("book-list");
 const books = document.querySelector('.books');
-let i = 0;
 
 function disp(){
     list.innerHTML = ''
+    let i = 0;
     book.map((item) => (
         list.innerHTML += `
         <li id="bok">${item.title} by ${item.author} <br> 
-        <button type="button" class="btn btn-outline-primary delete-btn" id="btns-${i++}">
+        <button type="button" class="btn btn-outline-primary delete-btn" id="${i++}">
                         Remove</button> </li> <hr>
         `
         ));
@@ -24,8 +24,9 @@ function disp(){
                 const buttonElem = document.getElementById('book-list')
                 const btnEle = document.getElementById(item.id)
                 buttonElem.removeChild(btnEle.parentElement)
-                console.log
-
+                book.splice(item.id,1);
+                localStorage.setItem('our-books', JSON.stringify(book))
+                disp();
             })
         }) 
 }
