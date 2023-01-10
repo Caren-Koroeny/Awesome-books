@@ -20,10 +20,12 @@ myButton.addEventListener("click", (e)=>{
         list.innerHTML = ''
         book.map((item) => (
             list.innerHTML += `
-            <li id="bok">${item.title} by ${item.author}  <button onclick="book.remove(${i})" class='btn btn-outline-primary'> Remove </button> </li> 
+            <li id="bok">${item.title} by ${item.author}  <button type="button" class="btn btn-outline-primary" id="btns-${i++}">Remove</button></li> 
             `
-        ))
-        1++;
+            ));
+    
+            
+
         document.querySelector('form').reset()  
         
         document.querySelector("#btns-" + i)
@@ -31,7 +33,7 @@ myButton.addEventListener("click", (e)=>{
             const remove1 = this.parentNode;
             list.removeChild(remove1);
 
-            i++;
+            
         })
 
        
