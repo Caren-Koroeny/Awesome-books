@@ -26,20 +26,20 @@ class Books {
     }
     list.innerHTML = '';
     let i = -1;
-    book.forEach((item) => list.innerHTML += `
-          <li id="bok">${item.title} by ${item.author} <br> 
-          <button type="button" class="btn btn-outline-primary delete-btn" id="${i += 1}">
-                          Remove</button> </li> <hr>
-          `);
+    book.forEach((item) => {
+      const tr = document.createElement('tr');
+      tr.setAttribute('class', 'book-row');
+      tr.innerHTML = ` <td>"${item.title}" &nbsp by &nbsp ${item.author}</td> 
+        <td><button class="delete-btn btn btn-outline-primary" id="${i += 1}">Remove</button></td>
+      `;
+      list.appendChild(tr);
+    });
     const buttonItem = document.querySelectorAll('.delete-btn');
     buttonItem.forEach((item) => {
       item.addEventListener('click', (e) => {
-        const buttonElem = document.getElementById('book-list');
-        const btnEle = document.getElementById(item.id);
-        buttonElem.removeChild(btnEle.parentElement);
-        book.splice(item.id, 1);
-        localStorage.setItem('our-books', JSON.stringify(book));
-        Books.disp();
+        const delButton = e.target;
+        list.deleteRow(delButton.id);
+        book.splice(delButton.id, 1);
       });
     });
     return 0;
