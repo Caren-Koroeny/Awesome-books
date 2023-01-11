@@ -14,7 +14,6 @@ const list = document.getElementById('book-list');
 const books = document.querySelector('.books');
 const time = document.querySelector('.time');
 
-
 class Books {
   constructor(title, author) {
     this.title = title;
@@ -66,7 +65,7 @@ myButton.addEventListener('click', Books.addBook);
 Books.disp();
 
 // Full app with the navigation area
-const sec1 = document.querySelector(".section1");
+const sec1 = document.querySelector('.section1');
 const sec2 = document.querySelector('.section2');
 const sec3 = document.querySelector('.section3');
 const listBtn = document.getElementById('books-lists');
@@ -74,13 +73,13 @@ const addbookBtn = document.getElementById('addNewbook');
 const contactBtn = document.getElementById('contact');
 
 // Single page App functions
-const  listbookShow = () => {
+const listbookShow = () => {
   sec1.classList.remove('no-display');
   sec2.classList.add('no-display');
   sec3.classList.add('no-display');
   listBtn.classList.add('active-btn');
-  addbookBtn.classList.add('active-btn');
-  contactBtn.classList.add('active-btn');
+  addbookBtn.classList.remove('active-btn');
+  contactBtn.classList.remove('active-btn');
 };
 
 const addNewBookShow = () => {
@@ -102,7 +101,6 @@ const showContact = () => {
 contactBtn.addEventListener('click', showContact);
 listBtn.addEventListener('click', listbookShow);
 addbookBtn.addEventListener('click', addNewBookShow);
-
 
 // TIme function
 

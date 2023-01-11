@@ -12,16 +12,15 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-HQREYRLMDN');
-    </script>
+</script>
 <body> 
     <header>
         <nav class="navbar">
          <h2 class="tag-title">Awesome Books</h2>
           <ul class="top-menu">
             <li><a href="#" id="books-lists" class="nav-links listNav">List</a></li>
-            <li><a href="#" id="addNewbook">Add new</a></li>
+            <li><a href="#" id="addNewbook" class="active-btn">Add new</a></li>
             <li class="contactNav"><a href="#" id="contact">Contact</a></li>
           </ul>
         </nav>
@@ -29,7 +28,7 @@
 
 <div class="time-section">
       <p class="time"></p>
-      </div>
+  </div>
 <section class="no-display section1 ">
         <header>
           <div class="header-top">
@@ -38,17 +37,15 @@
         </header>
           <table class="books-list-container table table-striped" id="books-list-container">
             <tbody id="book-list" class="books"></tbody>
-          </table>
-          
+          </table>    
 </section>   
 
 <section id="container" class="section2">
-  <h2>Add a new Book</h2>    
-    
+  <h1>Add a new Book</h1>    
     <form action="" id="add" class="input-container" >
         <input type="text" id="text" placeholder="Title">
         <input type="text" id="txt" placeholder="Author">
-        <button type="submit" class="btn-list ">Add</button>
+        <button type="submit" class="btn-list btn btn-outline-primary">Add</button>
     </form> 
 </section>
 
@@ -61,7 +58,7 @@
         <ul>
           <li>Mail at yoriyordina7@gmail.com</li>
           <li>Number at Yordi</li>
-          <li>Address at Addis-Ababa, Ethiopia</li>
+          <li>Address at Addis-Ababa :), Ethiopia</li>
         </ul>
       </li>
     </ul>
@@ -71,12 +68,12 @@
         <ul>
           <li>Mail at carensiya5@gmail.com</li>
           <li>Number at Caren</li>
-          <li>Address at Nairobi, Kenya</li>
+          <li>Address at Nairobi (Meru :), Kenya</li>
         </ul>
       </li>
     </ul>
   </section>
-  <footer class="footer">
+  <footer class="footer navbar">
     <p>&copy;Yordi & carensiya 2023 all right Reserved.</p>
   </footer>
 <script src="assets/app.js"></script>

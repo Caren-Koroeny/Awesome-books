@@ -3,13 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header-top > h1{
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-top > h1 {
   font-weight: 700;
 }
+
 h2 {
   border-top: 1.6px solid black;
   padding-top: 20px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,12 +54,13 @@ h2 {
   font-size: 20px;
 }
 
-.navbar ul .contactNav{
+.navbar ul .contactNav {
   border-right: none;
 }
+
 .section1,
 .section2,
-.section3{
+.section3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +70,6 @@ h2 {
 }
 
 .section1 {
-  
   height: auto;
 }
 
@@ -68,14 +77,9 @@ h2 {
   max-width: 300px;
   height: 250px;
 }
-.section3 h1{
+
+.section3 h1 {
   font-weight: 700;
-}
-.section3 ul li ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
- 
 }
 
 .section3 p {
@@ -92,7 +96,11 @@ h2 {
   margin: auto 0;
 }
 
-
+.section3 ul li ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
 
 form {
   width: 100%;
@@ -109,14 +117,12 @@ input {
 
 .btn-list {
   width: 30%;
-  margin-left: 180px;
-  cursor: pointer;
+  margin-left: auto;
 }
 
 .delete-btn {
   cursor: pointer;
   padding: 10px;
-  margin-left: 50%;
 }
 
 .books-list-container {
@@ -134,7 +140,7 @@ input {
 }
 
 .footer {
-  border: 3px solid #000;
+  margin-top: auto;
   text-align: center;
   padding: 15px;
   position: fixed;
@@ -142,9 +148,9 @@ input {
   align-content: center;
   margin-left: 5%;
   width: 90%;
-
 }
-.no-display{
+
+.no-display {
   display: none;
 }
 
@@ -154,7 +160,6 @@ input {
   border: 0.7px solid white;
   border-radius: 7%;
   padding: 4px;
-
 }
 
 /* time container */
