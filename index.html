@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css"/>
 </head>
-<body>  
- 
-<section class="section1">
+<body> 
+    <header>
+        <nav class="navbar">
+         <h2 class="tag-title">Awesome Books</h2>
+          <ul class="top-menu">
+            <li><a href="#" id="books-lists" class="nav-links listNav">List</a></li>
+            <li><a href="#" id="addNewbook">Add new</a></li>
+            <li class="contactNav"><a href="#" id="contact">Contact</a></li>
+          </ul>
+        </nav>
+        </header> 
+
+<div class="time-section">
+      <p class="time"></p>
+      </div>
+<section class="no-display section1 ">
         <header>
           <div class="header-top">
             <h1>All Awesome Books</h1>
@@ -30,7 +43,35 @@
         <input type="text" id="txt" placeholder="Author">
         <button type="submit" class="btn-list ">Add</button>
     </form> 
-</section>  
+</section>
+
+<section class="no-display section3" id="contact-info">
+    <h1>Contact Information</h1>
+    <p>Do you have any questions or suggestions or you'd want to drop us a hello? <br> You can reach as to!</p>
+    <ul>
+      <li>Yordanos Temesgen</li>
+      <li>
+        <ul>
+          <li>Mail at yoriyordina7@gmail.com</li>
+          <li>Number at Yordi</li>
+          <li>Address at Addis-Ababa, Ethiopia</li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>Caren Siya</li>
+      <li>
+        <ul>
+          <li>Mail at carensiya5@gmail.com</li>
+          <li>Number at Caren</li>
+          <li>Address at Nairobi, Kenya</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <p>&copy;Yordi & arensiya 2023 all right Reeserved.</p>
+  </footer>
 <script src="assets/app.js"></script>
 </body>
 </html>
