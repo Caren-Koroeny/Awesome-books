@@ -14,9 +14,17 @@ const list = document.getElementById('book-list');
 const books = document.querySelector('.books');
 
 class Books {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
+  constructor() {
+    this.book = [
+      {
+        title:"Kidagaa kimemwozea", 
+        author: "Ken Walibora"
+      },
+      {
+        title:"Desire of Ages", 
+        author: "Ellen White"
+      }
+    ]
   }
 
   static disp() {
