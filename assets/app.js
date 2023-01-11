@@ -40,6 +40,8 @@ class Books {
         const delButton = e.target;
         list.deleteRow(delButton.id);
         book.splice(delButton.id, 1);
+        localStorage.setItem('our-books', JSON.stringify(book));
+        Books.disp();
       });
     });
     return 0;
