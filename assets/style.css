@@ -74,7 +74,7 @@ input,
   border: 2px solid black;
   text-transform: uppercase;
 }
-.books-list-container li:nth-child(odd) {
+.books-list-container  ul li:nth-child(odd) {
   background-color: rgb(136, 132, 132);
-  color: #000;
+  color: rgb(2, 2, 2);
 }
