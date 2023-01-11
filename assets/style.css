@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.header-top > h1{
+  font-weight: 700;
+}
 h2 {
   border-top: 1.6px solid black;
   padding-top: 20px;
@@ -21,6 +23,7 @@ h2 {
 
 .navbar h2 {
   border: none;
+  font-weight: 700;
   font-size: 28px;
   padding: 1%;
 }
@@ -57,7 +60,7 @@ h2 {
 }
 
 .section1 {
-  margin-top: 10vh;
+  
   height: auto;
 }
 
