@@ -26,9 +26,29 @@
 
 **Awesome Books** is a website that allow users to create a book with title and author name and add to their books list on the page.
 
+![screenshot](./assets/images/add.png)
+![screenshot](./assets/images/lists.png)
+![screenshot](./assets/images/contact.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+
+## Authors
+
+👤 **Author1**
+### Run tests
+
+- To run tests run :
+- npx hint .
+- npx stylelint "**/*.{css,scss}"
+
+### Deployment
+
+- Project is deployed using
+- git push <branch_name>
+
 
 
 
@@ -100,14 +120,15 @@ Clone this repository to your desired folder:
 👤 **Yordanos Temesgen**
 
 __Caren Koroeny__
-- GitHub: [@githubhandle](https://github.com/Caren-Koroeny) 
-- Twitter: [@twitterhandle](https://twitter.com/handel)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/handel/)
+- GitHub: [@carensiya ](https://github.com/Caren-Koroeny)
+- Twitter: [@carensiya](https://twitter.com/home)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/caren-siya-a89712180)
+
 
 __Yordanos Temesgen__
 - GitHub: [@yordinia](https://github.com/yordinia)
 - Twitter: [@yordinia](https://twitter.com/yordinia)
-- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202
+- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
