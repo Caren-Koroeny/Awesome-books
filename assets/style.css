@@ -51,7 +51,7 @@ input {
 .delete-btn {
   cursor: pointer;
   padding: 10px;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 
 .books-list-container {

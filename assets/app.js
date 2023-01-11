@@ -29,7 +29,7 @@ class Books {
     book.forEach((item) => {
       const tr = document.createElement('tr');
       tr.setAttribute('class', 'book-row');
-      tr.innerHTML = ` <td>${item.title} by ${item.author}</td> 
+      tr.innerHTML = ` <td>"${item.title}" &nbsp by &nbsp ${item.author}</td> 
         <td><button class="delete-btn btn btn-outline-primary" id="${i += 1}">Remove</button></td>
       `;
       list.appendChild(tr);
