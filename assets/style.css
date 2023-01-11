@@ -25,9 +25,8 @@ h2 {
 }
 
 .section2 {
-  margin-top: 5%;
   max-width: 300px;
-  height: 200px;
+  height: 250px;
 }
 
 form {
@@ -52,6 +51,7 @@ input {
 .delete-btn {
   cursor: pointer;
   padding: 10px;
+  margin-left: 60%;
 }
 
 .books-list-container {
