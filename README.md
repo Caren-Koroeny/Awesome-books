@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-#### <a href="">[Live Demo Link](https://caren-koroeny.github.io/Awesome-books/)</a>
+#### <a href="">[Live Demo Link](https://yordinia.github.io/Awesome-books/)</a>
 
 
 
@@ -81,7 +81,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone https://github.com/caren-koroeny/Awesome-Books.git
+  git clone https://github.com/yordinia/Awesome-Books.git
 ```
 
 
@@ -96,11 +96,11 @@ Clone this repository to your desired folder:
 ## 👥 Authors 
 <a name="authors"></a>
 
-👤 **Caren Koroeny**
+👤 **jonas-45**
 👤 **Yordanos Temesgen**
 
-__Caren Koroeny__
-- GitHub: [@githubhandle](https://github.com/Caren-Koroeny) 
+__jonas-45__
+- GitHub: [@githubhandle](https://github.com/jonas-45) 
 - Twitter: [@twitterhandle](https://twitter.com/handel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/handel/)
 
@@ -155,7 +155,7 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Caren-Koroeny/Awesome-Books/blob/add-remove-books/LICENSE) licensed.
+This project is [MIT](https://github.com/yordinia/Awesome-Books/blob/add-remove-books/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
